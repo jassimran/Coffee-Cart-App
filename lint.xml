@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/gatech/edu/assignment4/coffeecart/CoffeeActivity.java" />
+        <ignore path="src/org/json/JSONObject.java" />
+    </issue>
+</lint>

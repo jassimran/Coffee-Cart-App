@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/serialnotextViewAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="S.No"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/pricetextViewAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/serialnotextViewAdd"
+        android:layout_alignBottom="@+id/serialnotextViewAdd"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/itemNametextViewAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pricetextViewAdd"
+        android:layout_alignBottom="@+id/pricetextViewAdd"
+        android:layout_centerHorizontal="true"
+        android:text="Item Name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
